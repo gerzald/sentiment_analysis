@@ -20,8 +20,8 @@ namespace SentimentAnalysis.Aws.Api.Services
 
         public SentimentAnalysisService()
         {
-            string accessKey = "AKIA43PAFJRH3ACISVFL";
-            string secretKey = "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";
+            string accessKey = "myAccessKey";
+            string secretKey = "mySecreteKey";
             _comprehendClient = new AmazonComprehendClient(accessKey, secretKey, Amazon.RegionEndpoint.USEast1);
         }
 
